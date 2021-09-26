@@ -17,20 +17,23 @@ const Presentation = () => {
       </div>
       <div className="presentation__bottom">
         <div className="presentation__bottom__img">
-          <img src={avatar} alt="moi" className="" />
+          <img src={avatar} alt="moi" />
         </div>
         <div className="presentation__bottom__text">
-          <div className="presentation__bottom__text__title">
-            Voici le titre de la section
-          </div>
+          <div className="presentation__bottom__text__title">Qui je suis ?</div>
           <p>
-            Lorem ipsum dolor sit amet. Nam ducimus ullam ut iusto placeat aut
-            neque voluptates est dolore eum omnis voluptas eos autem
-            consequuntur est dolores quia? Et blanditiis unde ea vero quia ea
-            velit molestiae At velit dolor nam voluptatibus eveniet. Vel numquam
-            quia eos voluptatem voluptatibus aut recusandae culpa sit
-            consequatur tenetur et harum minima. Non totam quod aut culpa illum
-            et illum quia
+            Ancien opérateur de machines à commande numérique dans le domaine de
+            l'aéronautique et du bâtiment, j'ai décidé de me reconvertir dans le
+            développement web.
+            <br />
+            Pour cela j'ai réalisé une formation de développeur web et web
+            mobile durant laquelle j'ai appris à maîtriser différents langages
+            de programmation pour la réalisation de sites web.
+            <br />
+            <br />
+            Impliqué et rigoureux dans mon travail, je saurai mettre en œuvre
+            toutes mes compétences et mes qualités dans les projets qui me
+            seront confiés.
           </p>
           <div className="presentation__bottom__text__resume">
             <a href={cv} download>

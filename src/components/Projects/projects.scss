@@ -38,6 +38,10 @@
 
     &__description {
       width: 30rem;
+      &__url{
+        font-weight: bold;
+        color: black;
+      }
     }
   }
 }
@@ -67,6 +71,8 @@
 
 @media screen and (max-width : 800px) {
   .projects{
+
+
     &__mobile-chevron{
       display: flex;
       justify-content: space-between;
@@ -77,6 +83,11 @@
       }
     }
     &__project{
+
+      h4{
+        margin-top: 0;
+      }
+
       &__carousel{
         &__img{
           width: 90vw;
@@ -85,6 +96,16 @@
         &__chevron{
           width: 2rem;
           display: none;
+        }
+      }
+
+      &__description {
+        text-align: center;
+        font-size: 0.8rem;
+
+        p{
+          margin-top: 0;
+          font-size: 0.8rem;
         }
       }
     }

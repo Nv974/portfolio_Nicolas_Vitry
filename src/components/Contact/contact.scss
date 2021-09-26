@@ -139,6 +139,10 @@
     &__wrapper{
       flex-direction: column;
 
+      &__left{
+        font-size: 0.9rem;
+      }
+
       &__form {
         width: 80vw;
         &__first, &__second{

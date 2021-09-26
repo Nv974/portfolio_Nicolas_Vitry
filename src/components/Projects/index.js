@@ -62,6 +62,12 @@ const Projects = () => {
           <h3>{projectsList[projectToShow].title}</h3>
           <h4>{projectsList[projectToShow].sub}</h4>
           <p>{projectsList[projectToShow].description}</p>
+          <a
+            className="projects__project__description__url"
+            href={projectsList[projectToShow].extraUrl}
+          >
+            {projectsList[projectToShow].urlDescription}
+          </a>
         </div>
       </div>
     </div>

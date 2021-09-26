@@ -67,9 +67,9 @@ const Contact = () => {
       <div className="contact__wrapper">
         <div className="contact__wrapper__left">
           <p>
-            Bacon ipsum dolor amet alcatra spare ribs turducken shankle boudin
-            buffalo. Ground round swine andouille bresaola, hamburger chicken
-            chuck pork belly pork chop kielbasa jowl.
+            N'hésitez pas à me contacter pour vos projets, ou pour tout autre
+            renseignement via les coordonnées affichées ci-dessous.
+            <br />Vous pouvez aussi directement m'envoyer un message en utilisant le formulaire de contact.
           </p>
           <div className="contact__wrapper__left__bottom">
             <div className="contact__wrapper__left__bottom__phone">

@@ -42,13 +42,18 @@ const Home = () => {
     Aos.init({ duration: 2000 });
   }, []);
 
+  const scrollDown = () => {
+    window.scrollTo({ top: document.body.scrollHeight, left: 0, behavior: "smooth" });
+  }
+
+
   return (
     <div className="home">
       <div className="home__left" data-aos="fade-left">
         <span className="home__left__name">Nicolas Vitry</span>
         <span className="home__left__job">Développeur Web</span>
         <div className="home__left__button">
-          <button> Contactez-moi </button>
+          <button onClick={scrollDown}> Contactez-moi </button>
         </div>
       </div>
       <div className="home__center" data-aos="fade-down">
