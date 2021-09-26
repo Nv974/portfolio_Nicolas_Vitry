@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import phone from "../../assets/img/contact/telephone.png";
 import mail from "../../assets/img/contact/mail.png";
 import map from "../../assets/img/contact/map.png";
 import emailjs from "emailjs-com";
-import { useState } from "react/cjs/react.development";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
