@@ -4,16 +4,15 @@ import Burger from "./burger";
 
 import "./nav.scss";
 
-const Nav = () => {
+const Nav = ({burgerToggle, setBurgerToggle}) => {
   const [navActive, setNavActive] = useState(false);
   const [title, setTitle] = useState("Accueil");
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
-  const [burgerToggle, setBurgerToggle] = useState(false);
 
 
 
   window.onresize = () => {
-    setWindowHeight(+window.innerHeight);
+    setWindowHeight(window.innerHeight);
     //console.log("windowHeight " + windowHeight);
   };
 

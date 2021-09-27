@@ -16,7 +16,7 @@ const projectsList = [
     modifier : "harmonize"
   },
   {
-    title: "Bouboule Cooking",
+    title: "Bouboule Cooking (En construction)",
     sub: "Site de recettes originales",
     src: bouboule,
     alt: "maquette site internet bouboule cooking",

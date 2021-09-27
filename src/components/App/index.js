@@ -7,14 +7,16 @@ import Skills from "../Skills";
 import "./app.scss";
 import { Route } from "react-router-dom";
 import Footer from "../Footer";
+import { useState } from "react";
 
 function App() {
+    const [burgerToggle, setBurgerToggle] = useState(false);
 
   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 
   return (
     <div className="app">
-      <Nav />
+      <Nav burgerToggle={burgerToggle} setBurgerToggle={setBurgerToggle}  />
         <Route exact to="/">
           <Home />
         </Route>
