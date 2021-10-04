@@ -49,14 +49,14 @@ const Nav = ({burgerToggle, setBurgerToggle}) => {
       <div className={navActive ? "nav__title--active" : "nav__title"}>
         Portfolio://<span>{title}</span>
       </div>
-      <div
+      <NavLink
         className="nav__burger"
         onClick={() => {
           setBurgerToggle(!burgerToggle);
         }}
       >
         III
-      </div>
+      </NavLink>
       <ul className={navActive ? "nav__link--active" : "nav__link"}>
         <li>
           <NavLink
